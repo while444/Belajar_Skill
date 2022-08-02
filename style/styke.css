@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 814px;
+    background: #FFD868;
+}
+
+.text_belajar {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 98px;
+    color: #721B65;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    padding-top: 159px;
+}
+
+.text_lorem {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    padding-top: 20px;
+}
+
+.cari_kelas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 18px;
+    width: 273px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    border: none;
+
+
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #721B65;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.btn_menu_first_block {
+    display: flex;
+    width: 570px;
+    margin-top: 30px;
+}
+
+.promo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 18px;
+    width: 273px;
+    height: 56px;
+    background: #721B65;
+    border-radius: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    border: none;
+    margin-left: 24px;
+
+
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.first_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second_block {
+    display: flex;
+    justify-content: space-between;
+    height: 738px;
+    background-color: #FFFFFF;
+}
+
+.text_gabung {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 73px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.5);
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-top: 203px;
+}
+
+.text_lorem2 {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #000000;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-top: 16px;
+}
+
+.promo2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 10px;
+    width: 239px;
+    height: 61px;
+    background: #721B65;
+    border-radius: 10px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border: none;
+    margin-left: 317px;
+    margin-top: 76px;
+
+
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.left_second_block {
+    margin-top: 100px;
+}
+
+.third_block {
+    height: 671px;
+    background-color: #FFD868;
+}
+
+.text_akses {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 73px;
+    text-align: center;
+    color: #721B65;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    padding-top: 30px;
+}
+
+.card_block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.text_lihat {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #721B65;
+    margin-top: 40px;
+}
+
+.footer {
+    height: 671px;
+    background-color: #FFFFFF;
+}
+
+.text_dapatkan {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 73px;
+    color: rgba(0, 0, 0, 0.5);
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-top: 100px;
+}
+
+.lorem_foot {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 24px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-top: 16px;
+}
+
+.btn_foot {
+    width: 239px;
+    height: 61px;
+    background: #721B65;
+    border-radius: 10px;
+    border: none;    
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 500.5px;
+    margin-top: 60px;
+}
+
+.social {
+    width: 433px;
+    height: 111px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 404px;
+    margin-top: 126px;
+}
